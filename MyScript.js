@@ -1,5 +1,7 @@
   function calculate(){
     var km,age,costokm,prezzototale,sconto20,sconto40,risultato;
+    /*Km = parseInt(prompt("Km?"));
+    age = parseInt(prompt("Anni"));*/
     km = document.getElementById("km").value;
     age = document.getElementById("age").value;
     prezzototale=km*0.21;
@@ -11,4 +13,5 @@
     risultato=risultato.toFixed(2);  
     document.getElementById("Calcolo").value = risultato;
 } 
+
 
