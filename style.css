@@ -1,0 +1,20 @@
+body, head {
+    margin-top: 25px; 
+    margin-left: 25px;
+ }
+
+
+#km, #age, #Calcolo {
+    width: 60px;
+}
+
+h1 {
+    color: red;
+}
+
+#Calcolo {
+    margin-top: 10px;
+    text-align: right;
+}
+
+

@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF8">
         <script src="myScript.js"></script> 
+        <link rel="stylesheet" href="style.css">
         <title>Biglietto Treno</title>
     </head>
 
@@ -12,16 +13,13 @@
             <form action="/action_page.php">
                 <label for="km">Km. Percorsi:</label>
                 <input type="number" id="km" name="km"><br><br>
-                <label for="età">Età:</label>
-                <input type="number" id="età" name="età"><br><br>
+                <label for="age">Età:</label>
+                <input type="number" id="age" name="age"><br><br>
             </form>
-            <button type="button" onclick="calculate">Calcolo Prezzo</button>
+            <input type="button" value="Calcolo-Prezzo-Biglietto" onclick="calculate();">
             <form action="/action_page.php">
-                <label for="Risultato"></label>
-                <input type="text" id="Risultato" name="Risultato"><br><br>
+                <input type="text" id="Calcolo" name="Calcolo"><br><br>
             </form>
-            
-
         </p>
     </body>
 
